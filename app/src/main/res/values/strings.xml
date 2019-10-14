@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">TelPort</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="login">Login</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="delete_report">Delete Report</string>
+    <string name="edit_report">Edit Report</string>
+    <string name="placeholder">placeholder</string>
+    <string name="view_report">View Report</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="R1">
+        <item>REG1-ACEH</item>
+        <item>REG1-BATAM</item>
+        <item>REG1-BENGKULU</item>
+        <item>REG1-JAMBI</item>
+        <item>REG1-LAMPUNG</item>
+        <item>REG1-MEDAN</item>
+        <item>REG1-PADANG</item>
+        <item>REG1-PALEMBANG</item>
+        <item>REG1-PANGKAL PINANG</item>
+        <item>REG1-PEKANBARU</item>
+        <item>REG1-PEMATANG SIANTAR</item>
+    </string-array>
+
+    <string-array name="R2">
+        <item>REG2-BEKASI</item>
+        <item>REG2-BOGOR</item>
+        <item>REG2-JAKARTA BARAT</item>
+        <item>REG2-JAKARTA PUSAT</item>
+        <item>REG2-JAKARTA SELATAN</item>
+        <item>REG2-JAKARTA TIMUR</item>
+        <item>REG2-JAKARTA UTARA</item>
+        <item>REG2-SERANG</item>
+        <item>REG2-TANGERANG</item>
+    </string-array>
+
+    <string-array name="R3">
+        <item>REG3-BANDUNG</item>
+        <item>REG3-BANDUNG BARAT</item>
+        <item>REG3-CIREBON</item>
+        <item>REG3-KARAWANG</item>
+        <item>REG3-SUKABUMI</item>
+        <item>REG3-TASIKMALAYA</item>
+    </string-array>
+
+    <string-array name="R4">
+        <item>REG4-DI YOGYAKARTA</item>
+        <item>REG4-KUDUS</item>
+        <item>REG4-MAGELANG</item>
+        <item>REG4-PEKALONGAN</item>
+        <item>REG4-PURWOKERTO</item>
+        <item>REG4-SEMARANG</item>
+        <item>REG4-SOLO</item>
+    </string-array>
+
+    <string-array name="R5">
+        <item>REG5-DENPASAR</item>
+        <item>REG5-JEMBER</item>
+        <item>REG5-KEDIRI</item>
+        <item>REG5-KUPANG</item>
+        <item>REG5-MADIUN</item>
+        <item>REG5-MADURA</item>
+        <item>REG5-MALANG</item>
+        <item>REG5-MATARAM</item>
+        <item>REG5-PASURUAN</item>
+        <item>REG5-SIDOARJO</item>
+        <item>REG5-SINGARAJA</item>
+        <item>REG5-SURABAYA SELATAN</item>
+        <item>REG5-SURABAYA UTARA</item>
+    </string-array>
+
+    <string-array name="R6">
+        <item>REG6-BALIKPAPAN</item>
+        <item>REG6-BANJARMASIN</item>
+        <item>REG6-PALANGKARAYA</item>
+        <item>REG6-PONTIANAK</item>
+        <item>REG6-TARAKAN</item>
+    </string-array>
+
+    <string-array name="R7">
+        <item>REG7-AMBON</item>
+        <item>REG7-JAYAPURA</item>
+        <item>REG7-KENDARI</item>
+        <item>REG7-MAKASSAR</item>
+        <item>REG7-MANADO</item>
+        <item>REG7-PALU</item>
+        <item>REG7-PARE-PARE</item>
+        <item>REG7-SORONG</item>
+        <item>REG7-GORONTALO</item>
+    </string-array>
+
+    <string-array name="KKD">
+        <item>12</item>
+        <item>24</item>
+        <item>48</item>
+        <item>96</item>
+    </string-array>
+
+    <string-array name="Survey">
+        <item>Ya, karena data kurang memadai</item>
+        <item>Tidak, karena data yang ada sudah cukup</item>
+    </string-array>
+
+</resources>
+
+
+
+
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_Account">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical|center_horizontal">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center_horizontal|top"
+            android:src="@drawable/ph" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="John Doe"
+            android:textAlignment="center"
+            android:fontFamily="@font/montserrat"
+            android:textColor="#000"
+            android:textSize="32sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+            android:fontFamily="@font/montserrat"
+            android:textAlignment="center"
+            android:textColor="#a9a9a9"
+            android:textSize="16sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Team ID : 12345-FD"
+            android:fontFamily="@font/montserrat"
+            android:textAlignment="center"
+            android:textColor="#a9a9a9"
+            android:textSize="16sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/tvLogOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="Log Out"
+            android:textColor="@color/notClick"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+</RelativeLayout>

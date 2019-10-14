@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".subLanding_ViewReport_DetailViewReport_EditReport">
+
+    <TextView
+        android:id="@+id/tvHSD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Ticket Number"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTeamSurvey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHSD"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp"
+        android:text="ID Team"
+        android:textAlignment="center"
+        android:textColor="#a9a9a9"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:id="@+id/LL_EDIT"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTeamSurvey"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Kabel Distribusi"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Format: DS-STO-FE-noFeeder-noSegFeeder(-noSubSegFeeder)/noDist contoh: DS-CAA-FE-01-01-01/01 atau DS-CAA-FE-01-01/01"
+            android:textColor="#808080"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/etNKD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="*Last Input*"
+            android:inputType="textCapCharacters"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kapasitas Kabel Distribusi"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Core Yang Terpakai"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Direportkan pada ISS dengan designator SUR-PEL-DIS dan SUR-PEL-FEE"
+            android:textColor="#808080"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+
+        <EditText
+            android:id="@+id/etJCYT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="*Last Input*"
+            android:inputType="number"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Core Rusak"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etJCR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="*Last Input*"
+            android:inputType="number"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Core Idle"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etJCI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="*Last Input*"
+            android:inputType="number"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Segmen Hasil"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etJSH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="*Last Input*"
+            android:inputType="number"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah ODP Hasil"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etJODPH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="*Last Input*"
+            android:inputType="number"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informasi Tambahan Terkait Kondisi Lapangan"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Belum Terminasi ODC"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Core Belum E2E"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feeder Habis"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kabel Distribusi ini Diluar Load Order Awal."
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LL_EDIT"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/rounded_button"
+        android:text="Submit"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+</RelativeLayout>
